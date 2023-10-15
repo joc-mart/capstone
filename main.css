@@ -11,6 +11,37 @@
 }
 
 html {
-    font-family: sans-serif;
-    background-color: #B8E9EB;
+    background-color: var(--pale-green);
+}
+/* *, 
+*:before, 
+*:after {
+} */
+
+/** typography **/
+* {
+    margin: 0;
+    padding: 1.5%;
+    list-style: none;
+    color: var(--black);
+}
+body {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+}
+h1 {
+    font-family: var(--font-body);
+    font-size: 1rem;
+}
+h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+}
+h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+}
+img {
+    max-width: 100%;
+    display: block;
 }
