@@ -1,3 +1,15 @@
+:root {
+    --font-body: Lexend-Deca, sans-serif;
+    --font-heading: Rowdies, sans-serif;
+    --red: #E65600;
+    --black: #1E1E1E;
+    --offwhite: #E5F5FF;
+    --purple: #C2B4FE;
+    --yellow: #F9C904;
+    --green: #05BB9A;
+    --pale-green: #B8E9EB;
+}
+
 html {
     font-family: sans-serif;
     background-color: #B8E9EB;
