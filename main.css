@@ -54,18 +54,16 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.navigation {
-    display: flex;
-    flex-direction: row;
+nav li {
+    display: inline-block;
+    justify-content: flex-end;
 }
 
 /** hero **/
 .hero {
     display: flex;
 }
-.hero-text {
-   justify-items: center;
-}
+
 
 /** body **/
 .container {
