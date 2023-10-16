@@ -1,5 +1,5 @@
 :root {
-    --font-body: Lexend-Deca, sans-serif;
+    --font-body: Lexend Deca, sans-serif;
     --font-heading: Rowdies, sans-serif;
     --red: #E65600;
     --black: #1E1E1E;
@@ -52,11 +52,29 @@ img {
 /** header **/
 header {
     display: flex;
+    justify-content: space-between;
 }
-nav 
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
 
 /** hero **/
 .hero {
     display: flex;
 }
+.hero-text {
+   justify-items: center;
+}
 
+/** body **/
+.container {
+    display: flex;
+}
+
+
+/** footer **/
+footer { 
+padding: 0;
+background-color: var(--purple);
+}
