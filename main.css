@@ -41,7 +41,22 @@ h3 {
     font-family: var(--font-heading);
     font-size: 1.5rem;
 }
+a{
+    text-decoration: none;
+}
 img {
     max-width: 100%;
     display: block;
 }
+
+/** header **/
+header {
+    display: flex;
+}
+nav 
+
+/** hero **/
+.hero {
+    display: flex;
+}
+
