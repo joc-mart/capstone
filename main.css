@@ -22,6 +22,7 @@ html {
 * {
     margin: 0;
     padding: 1.5%;
+    box-sizing: border-box;
     list-style: none;
     color: var(--black);
 }
@@ -49,14 +50,26 @@ img {
     display: block;
 }
 
-/** header **/
+/******** desktop *******/
+/** header **/ 
 header {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
+}
+.page-title {
+    margin-right: auto;
+}
+ul {
+    display: flex;
 }
 nav li {
-    display: inline-block;
-    justify-content: flex-end;
+    padding: 1rem;
+}
+nav a:hover {
+    color: var(--green);
 }
 
 /** hero **/
