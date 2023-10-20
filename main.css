@@ -11,7 +11,7 @@
 }
 
 html {
-    background-color: var(--pale-green);
+    background-color: var(--offwhite);
 }
 /* *, 
 *:before, 
@@ -36,7 +36,9 @@ h1 {
 }
 h2 {
     font-family: var(--font-heading);
-    font-size: 2rem;
+    font-size: 2.5rem;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 h3 {
     font-family: var(--font-heading);
@@ -81,8 +83,11 @@ nav a:hover {
 /** body **/
 .container {
     display: flex;
+    padding: 0;
 }
-
+.child {
+    width: 50%;
+}
 
 /** footer **/
 footer { 
