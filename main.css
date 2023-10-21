@@ -88,11 +88,11 @@ a:hover {
 
 /** body **/
 .heading {
-    margin-left: 5%;
+    margin-left: 9%;
 }
 .container {
     display: flex;
-    margin: 3rem;
+    margin: 5%;
     padding: 1.5%; 
 }
 p {
