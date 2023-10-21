@@ -20,8 +20,8 @@ html {
 
 /** typography **/
 * {
-    margin: 0;
-    padding: 1.5%;
+    /* margin: 0; */
+    /* padding: 1.5%; */
     box-sizing: border-box;
     list-style: none;
     color: var(--black);
@@ -37,8 +37,8 @@ h1 {
 h2 {
     font-family: var(--font-heading);
     font-size: 2.5rem;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 h3 {
     font-family: var(--font-heading);
@@ -56,6 +56,8 @@ img {
 /** header **/ 
 header {
     display: flex;
+    margin: 5%;
+    padding: 1.5%;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -77,27 +79,32 @@ a:hover {
 /** hero **/
 .hero {
     display: flex;
+    margin: 5%;
 }
-
+.block {
+    padding: 3%;
+    max-width: 50%;
+}
 
 /** body **/
+.heading {
+    margin-left: 5%;
+}
 .container {
     display: flex;
-    padding: 0;
-    margin-bottom: 4rem;
-}
-.child {
-    width: 50%;
-}
-.copy {
-    max-width: 50%;
+    margin: 3rem;
+    padding: 1.5%; 
 }
 p {
  line-height: 125%;
 }
+.links {
+    margin-left: 5%;
+}
 
 /** footer **/
-footer { 
-padding: 0;
-background-color: var(--purple);
+.footer {
+    margin: 0; 
+    padding: 1.5%;
+    background-color: var(--green);
 }
