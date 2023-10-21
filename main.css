@@ -70,7 +70,7 @@ ul {
 nav li {
     padding: 1rem;
 }
-nav a:hover {
+a:hover {
     color: var(--green);
 }
 
