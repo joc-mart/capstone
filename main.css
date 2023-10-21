@@ -84,9 +84,13 @@ nav a:hover {
 .container {
     display: flex;
     padding: 0;
+    margin-bottom: 4rem;
 }
 .child {
     width: 50%;
+}
+.copy {
+    max-width: 50%;
 }
 p {
  line-height: 125%;
