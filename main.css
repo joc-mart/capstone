@@ -101,6 +101,9 @@ p {
 .links {
     margin-left: 5%;
 }
+.space {
+    padding: 8rem;
+}
 
 /** footer **/
 .footer {
