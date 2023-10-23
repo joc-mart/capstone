@@ -97,13 +97,16 @@ a:hover {
     padding: 1.5%; 
 }
 p {
- line-height: 125%;
+    line-height: 125%;
 }
 .links {
-    margin-left: 5%;
+    margin-left: 9%;
 }
 .space {
     padding: 8rem;
+}
+.citations {
+    margin: 9%;
 }
 
 /** footer **/
