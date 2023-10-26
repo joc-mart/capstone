@@ -96,6 +96,16 @@ a:hover {
     margin: 5%;
     padding: 1.5%; 
 }
+.block-space {
+    margin: 0;
+    padding: 0% 3% 3% 3%;
+    max-width: 50%;    
+}
+.container-space {
+    display: flex;
+    margin: -5% 5% 5% 5%;
+    padding: 0 1.5% 1.5% 1.5%; 
+}
 p {
     line-height: 125%;
 }
