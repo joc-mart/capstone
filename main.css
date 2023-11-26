@@ -118,6 +118,9 @@ p {
 .citations {
     margin: 9%;
 }
+.style-guide {
+    border: solid var(--black);
+}
 
 /** footer **/
 .footer {
