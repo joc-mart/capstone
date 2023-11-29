@@ -134,8 +134,12 @@ img {
 @media only screen and (max-width: 667px) {
     
     /** all **/
-
-
+    .container {
+        padding: 5%;
+    }
+    .footer {
+        padding: 5%; 
+        
     /** home **/
     header {
         display: flex;
@@ -164,7 +168,6 @@ img {
     }
     .block {
         padding: 3%;
-        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -175,6 +178,6 @@ img {
         order:1;
     }
     .logo {
-        max-width: 60%;
+        max-width: 70%;
     }
 }
