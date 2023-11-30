@@ -175,6 +175,8 @@ img {
      /** all **/
      .container {
         padding: 5%;
+        display: flex;
+        flex-direction: column;
     }
     .heading {
         padding: 5%;
@@ -185,4 +187,13 @@ img {
     .footer {
         padding: 5%; 
     }
+    /** deliverables **/
+    
+    .con3 {
+        order:2;
+    }
+    .con4 {
+        order:1;
+    }
+    
 }
